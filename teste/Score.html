@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Score.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <h1>Scoreboard</h1>
+    
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Nome de usuário" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <form id="actionForm" style="margin-top: 20px;">
+        <input type="number" id="points" placeholder="Pontos" required>
+        <button type="submit">Adicionar Pontos</button>
+    </form>
+
+    <table id="scoreTable">
+        <thead>
+            <tr>
+                <th>Usuário</th>
+                <th>Pontuação</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="Score.js"></script>
+</body>
+</html>

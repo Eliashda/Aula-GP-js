@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#scoreTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#scoreTable th, #scoreTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#scoreTable th {
+    background-color: #f2f2f2;
+}
